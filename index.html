@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- info -->
+    <div class="bg-[#EFECE6] mt-2 ml-3 md:ml-3 lg:ml-10 mr-3 md:mr-3 lg:mr-10 rounded-md">
+        <div class="flex items-center justify-center pt-3 pb-3 pl-7 pr-7">
+            <p class="text-center">Read our latest:</p>
+            <a class="text-center" href="" class="underline text-base">CollectiveArtistry Tokenized Treasuries Research Report 2023 🏦</a>
+        </div>
+    </div>
+    <!-- navbar -->
+    <div class="navbar sticky top-0 bg-base-100 mt-0 md:mt-0 lg:mt-3 mb-0 md:mb-0 lg:mb-3">
+        <div class="navbar-start ml-5 md:ml-0 lg:ml-20">
+            <div class="flex gap-3">
+                <button class="w-8"><img src="./images/Style_shoot-01.png" alt="" 
+                    class="w-10 md:w-10 lg:w-16"></button>
+                <button>
+                    <p class="text-xl font-bold">CollectiveArtistry</p>
+                </button>
+            </div>
+            <div class="ml-5 hidden md:hidden lg:block">
+                <ul class="flex gap-5">
+                    <li><button class="btn btn-link text-black hover:underline">Dashboard</button></li>
+                    <li><button class="btn btn-link text-black hover:underline">Blogs</button></li>
+                    <li><button class="btn btn-link text-black hover:underline">Data & Developers</button></li>
+                    <li><button class="btn btn-link text-black hover:underline">
+                        Careers
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </button></li>
+                </ul>
+            </div>
+            <!-- <div class="flex gap-5 items-center block md:hidden">
+                <img src="logo.png" alt="" class="h-[50px] w-[50px]">
+                <a class="normal-case text-xl font-semibold text-[#F85559]">Fruit Blust</a>
+            </div> -->
+        </div>
+        <!-- <div class="navbar-center hidden lg:flex gap-5">
+            <img src="logo.png" alt="">
+            <a class="normal-case text-2xl font-semibold text-[#F85559]">Fruit Blust</a>
+        </div> -->
+        <div class="navbar-end mr-0 md:mr-0 lg:mr-20">
+            <div class="dropdown dropdown-left">
+                <button tabindex="0" class="btn btn-ghost lg:hidden" id="menu-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="button"
+                    class="h-6 w-6 p-3/4 rounded-sm bg-white bord er border-gray-300" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </button>
+                <ul tabindex="0" id="mobile-menu" class="menu menu-sm dropdown-content 
+                mt-3 z-[1] p-2 ml-10 shadow bg-base-100 rounded-box w-80 duration-200">
+                    <li><a class="text-xl">Dashboard</a></li> 
+                    <li><a class="text-xl">Blogs</a></li>
+                    <li><a class="text-xl">Data & Developers</a></li>
+                    <li><a class="text-xl">Careers</a></li>
+                </ul>
+            </div>
+            <div class="mr-5 hidden md:hidden lg:block">
+                <div class="flex items-center gap-8">
+                    <button class="btn btn-link text-black hover:underline">Login</button>
+                    <a class="btn btn-neutral text-white">Launch Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="ml-20 mr-20">
+    <!-- heading -->
+    <div data-aos="fade-up" class="mt-24 mb-32 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 
+    items-center gap-20 ml-2 md:ml-20 lg:ml-20 mr-2 md:mr-20 lg:mr-20">
+        <div class="text-5xl md:text-8xl lg:text-8xl font-serif">Analytics on <br> Real-World Assets</div>
+        <div>
+            <p class="text-[30px] mb-5 font-serif">Institutions, asset managers, and researchers, use the CollectiveArtistry Platform to analyze tokenized assets.</p>
+            <button class="btn bg-white border border-[#1e2124] hover:bg-blue-950 hover:text-white">
+                View the Dashboard
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.6075 11.3572L11.255 7.90897L12.1388 7L17 12L12.1388 17L11.255 16.091L14.6075 12.6428H7V11.3572H14.6075Z"
+                        fill="currentColor"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <!-- image -->
+    <div data-aos="fade-zoom-in" class="ml-0 md:ml-20 lg:ml-20 mr-0 md:mr-20 lg:mr-20 mb-24">
+        <img src="images/body_img.jpeg" loading="lazy" alt="" class="w-full h-full md:h-full lg:h-[540px]">
+    </div>
+    <!-- understanding -->
+    <div data-aos="fade-up" class="ml-4 md:ml-32 lg:ml-20 mr-4 md:mr-32 lg:mr-20 
+    grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div>
+            <p class="text-3xl md:text-6xl lg:text-6xl mb-10">Easily understand the tokenization of different asset classes</p>
+            <div class="flex items-center gap-1 md:gap-1 lg:gap-3">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.6075 11.3572L11.255 7.90897L12.1388 7L17 12L12.1388 17L11.255 16.091L14.6075 12.6428H7V11.3572H14.6075Z"
+                        fill="currentColor"></path>
+                </svg>
+                <p class="text-[14px] md:text-[18px] lg:text-[21px] mb-4">View global issuance, volumes, and rates</p>
+            </div>
+            <div class="flex items-center gap-1 md:gap-1 lg:gap-3">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.6075 11.3572L11.255 7.90897L12.1388 7L17 12L12.1388 17L11.255 16.091L14.6075 12.6428H7V11.3572H14.6075Z"
+                        fill="currentColor"></path>
+                </svg>
+                <p class="text-[14px] md:text-[18px] lg:text-[21px] mb-4">Analyze protocol metrics, defaults, and new deals</p>
+            </div>
+            <div class="flex items-center gap-1 md:gap-1 lg:gap-3">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.6075 11.3572L11.255 7.90897L12.1388 7L17 12L12.1388 17L11.255 16.091L14.6075 12.6428H7V11.3572H14.6075Z"
+                        fill="currentColor"></path>
+                </svg>
+                <p class="text-[14px] md:text-[18px] lg:text-[21px]">Drill down into individual loans</p>
+            </div>
+            <button class="mt-10 btn bg-white border border-[#1e2124] hover:bg-blue-950 hover:text-white">
+                View the Dashboard
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.6075 11.3572L11.255 7.90897L12.1388 7L17 12L12.1388 17L11.255 16.091L14.6075 12.6428H7V11.3572H14.6075Z"
+                        fill="currentColor"></path>
+                </svg>
+            </button>
+        </div>
+        <div>
+            <img src="./images/understand.png" alt="">
+        </div>
+    </div>
+    <!-- features -->
+    <div class="ml-4 md:ml-32 lg:ml-20 mr-4 md:mr-32 lg:mr-20 mt-28 mb-28">
+        <p class="text-center font-bold text-5xl pb-16">Platform Features</p>
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10">
+            <div class="bg-base-100 bg-[#EFECE6] hover:shadow-xl hover:cursor-pointer">
+                <div class="flex items-center justify-center pt-10 pb-10">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="bg-[#938876] text-white p-2 rounded-full w-16 h-16">
+                        <path
+                            d="M22.5 9.07499V12.093C16.581 12.831 12 17.88 12 24C12 30.627 17.373 36 24 36C26.7735 36 29.325 35.0595 31.359 33.48L33.4935 35.6145C30.9075 37.7295 27.6 39 24 39C15.7155 39 9 32.2845 9 24C9 16.2225 14.9205 9.82649 22.5 9.07499ZM38.925 25.5C38.625 28.5165 37.434 31.2705 35.6145 33.492L33.48 31.359C34.77 29.6985 35.634 27.6915 35.907 25.5H38.9265H38.925ZM25.503 9.07499C32.589 9.77849 38.223 15.414 38.928 22.5H35.9085C35.232 17.073 30.93 12.771 25.503 12.093V9.07349V9.07499Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+                <div class="flex flex-col items-center justify-center mb-14">
+                    <div class="flex gap-2 items-center pb-4">
+                        <h2 class="text-2xl">Company Directory</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </div>
+                    <p class="text-[21px] text-center pl-10 pr-10">Discover and contact real-world asset companies and issuers</p>
+                </div>
+            </div>
+            <div class="bg-base-100 hover:shadow-xl hover:cursor-pointer bg-[#EFECE6]">
+                <div class="flex items-center justify-center pt-10 pb-10">
+                    <svg width="48" height="48" viewBox="0 0 48 48" 
+                    class="bg-[#795449] text-white p-2 rounded-full w-16 h-16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25.4996 10.5V21.4005L34.9406 15.951L36.4406 18.549L27.0011 23.9985L36.4406 29.451L34.9406 32.049L25.4996 26.598V37.5H22.4996V26.598L13.0586 32.049L11.5586 29.451L20.9981 24L11.5586 18.549L13.0586 15.951L22.4996 21.4005V10.5H25.4996Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+                <div class="flex flex-col items-center justify-center pb-14">
+                    <div class="flex gap-2 items-center pb-4">
+                        <h2 class="text-2xl">Excel & Data Downloads</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </div>
+                    <p class="text-[21px] text-center pl-10 pr-10">
+                        Pull data directly into familiar and convenient workflows</p>
+                </div>
+            </div>
+            <div class="bg-base-100 bg-[#EFECE6]">
+                <div class="flex items-center justify-center pt-10 pb-10">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" 
+                    class="bg-[#55BFCA] text-white p-2 rounded-full w-16 h-16" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24 39C15.7155 39 9 32.2845 9 24C9 15.7155 15.7155 9 24 9C32.2845 9 39 15.7155 39 24C39 32.2845 32.2845 39 24 39ZM24 36C27.1826 36 30.2348 34.7357 32.4853 32.4853C34.7357 30.2348 36 27.1826 36 24C36 20.8174 34.7357 17.7652 32.4853 15.5147C30.2348 13.2643 27.1826 12 24 12C20.8174 12 17.7652 13.2643 15.5147 15.5147C13.2643 17.7652 12 20.8174 12 24C12 27.1826 13.2643 30.2348 15.5147 32.4853C17.7652 34.7357 20.8174 36 24 36V36ZM16.5 24H19.5C19.5 25.1935 19.9741 26.3381 20.818 27.182C21.6619 28.0259 22.8065 28.5 24 28.5C25.1935 28.5 26.3381 28.0259 27.182 27.182C28.0259 26.3381 28.5 25.1935 28.5 24H31.5C31.5 25.9891 30.7098 27.8968 29.3033 29.3033C27.8968 30.7098 25.9891 31.5 24 31.5C22.0109 31.5 20.1032 30.7098 18.6967 29.3033C17.2902 27.8968 16.5 25.9891 16.5 24V24Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+                <div class="flex flex-col items-center justify-center pb-14">
+                    <div class="flex gap-2 items-center pb-4">
+                        <h2 class="text-2xl">Developer API</h2>
+                    </div>
+                    <p class="text-[21px] text-center pl-10 pr-10">
+                        Integrate asset data for analysis or to build new financial products</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Resources -->
+    <div data-aos="fade-up" class="ml-4 md:ml-16 lg:ml-20 mr-4 md:mr-16 lg:mr-20 mt-44 mb-32 
+    bg-[#EFECE6]">
+        <img src="https://uploads-ssl.webflow.com/6470c67dbb66a109d9a2e80b/6470c67dbb66a109d9a2e833_CTA%20Dots.svg" alt="">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 md:gap-10 lg:gap-28">
+            <div class="ml-8 mt-3 md:ml-8 lg:ml-24 mr-8 md:mr-8 lg:mr-0">
+                <p class="text-4xl md:text-2xl lg:text-4xl">
+                    Your all-in-one resource for understanding real-world assets
+                </p>
+            </div>
+            <div class="ml-8 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-0">
+                <div class="mb-8">
+                    <label class="block">
+                        <span
+                            class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                            Email
+                        </span>
+                        <input required type="email" name="email" class="text-[#33475b] mt-1 px-3 py-2 bg-gray-100 border shadow-sm border-slate-300 
+                                placeholder-slate-400 focus:outline-none focus:border-sky-500 
+                                focus:ring-sky-500 block w-full md:w-full lg:w-[50%] rounded-2xl sm:text-sm focus:ring-1" />
+                    </label>
+                </div>
+                <div class="w-full md:w-full lg:w-[50%] mb-8">
+                    <p class="text-[14px] md:text-[16px] lg:text-[16px]">
+                        By clicking submit, you consent to allow RWA.xyz to store your information to contact you about our
+                        products and
+                        services. You may unsubscribe from these communications at any time.
+                    </p>
+                </div>
+                <div class="mb-8 flex items-center">
+                    <div class="bg-[#1a73e8] text-white p-3">
+                        <p><span class="text-[15px] md:text-[10px] lg:text-[15px]">Protected by </span>reCAPTCHA</p>
+                        <div class="flex gap-1">
+                            <button class="hover:underline">Privacy</button>
+                            <p>.</p>
+                            <button class="hover:underline">Terms</button>
+                        </div>
+                    </div>
+                    <div class="bg-white pt-[13px] pb-[10px] pl-3 pr-3">
+                        <img src="./images/reChapcha.png" alt="" class="w-14">
+                    </div>
+                </div>
+                <div class="mb-20">
+                    <button class="btn btn-neutral">Go to the Dashboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div data-aos="fade-up" class="ml-4 md:ml-16 lg:ml-20 mr-4 md:mr-16 lg:mr-20 mb-20">
+        <div class="hidden md:hidden lg:block">
+            <div class="grid grid-cols-4 gap-28">
+                <div>
+                    <div class="mb-5 flex gap-3 items-center">
+                        <img src="./images/Style_shoot-01.png" alt="" class="w-20 hover:cursor-pointer">
+                        <p class="text-3xl font-bold hover:cursor-pointer">CollectiveArtistry</p>
+                    </div>
+                    <div class="text-[14px] mb-5">
+                        RWA.xyz is the leading analytics company for tokenized real-world assets. View protocol statistics, industry
+                        aggregate
+                        metrics, and the issuers all in one place.
+                    </div>
+                    <div>
+                        <div class="bg-[#e4e4e7] hover:cursor-pointer rounded-lg flex items-center justify-center w-10 p-2">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.6212 7.24219C19.0487 7.49546 18.4415 7.66179 17.8197 7.73569C18.475 7.34376 18.9655 6.72695 19.1997 6.00019C18.5847 6.36619 17.9105 6.62269 17.2077 6.76144C16.7357 6.25637 16.11 5.92141 15.428 5.80863C14.7459 5.69584 14.0457 5.81156 13.4362 6.13778C12.8267 6.464 12.342 6.98245 12.0576 7.61253C11.7731 8.24262 11.7048 8.94902 11.8632 9.62194C10.6161 9.55943 9.39598 9.23533 8.2822 8.67069C7.16842 8.10604 6.18583 7.31347 5.39823 6.34444C5.11945 6.82328 4.97295 7.36761 4.97373 7.92169C4.97373 9.00919 5.52723 9.96994 6.36873 10.5324C5.87074 10.5168 5.38371 10.3823 4.94823 10.1402V10.1792C4.94838 10.9035 5.19901 11.6054 5.65762 12.166C6.11623 12.7266 6.7546 13.1113 7.46448 13.2549C7.0022 13.3802 6.51746 13.3987 6.04698 13.3089C6.24713 13.9324 6.63724 14.4776 7.16268 14.8683C7.68812 15.259 8.32258 15.4755 8.97723 15.4877C8.32659 15.9987 7.58162 16.3764 6.78489 16.5993C5.98817 16.8222 5.15533 16.8859 4.33398 16.7867C5.76776 17.7088 7.43681 18.1983 9.14148 18.1967C14.9112 18.1967 18.0665 13.4169 18.0665 9.27169C18.0665 9.13669 18.0627 9.00019 18.0567 8.86669C18.6709 8.42281 19.2009 7.87295 19.622 7.24294L19.6212 7.24219Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="mb-5 text-lg">Resources</p>
+                    <div><button class="mb-3">Dashboard</button></div>
+                    <div><button class="mb-3">Research Blog</button></div>
+                    <div><button class="mb-3">API</button></div>
+                </div>
+                <div>
+                    <p class="mb-5 text-lg">Company</p>
+                    <div><button class="mb-3">Career</button></div>
+                    <div><button class="mb-3">Twitter</button></div>
+                    <div><button class="mb-3">Contact</button></div>
+                    <div><button class="mb-3">Terms of use</button></div>
+                    <div><button class="mb-3">Privacy Policy</button></div>
+                </div>
+                <div>
+                    <p class="mb-5 text-lg">Dashboard</p>
+                    <div><button class="mb-3">Login</button></div>
+                    <div><button class="mb-3">Register</button></div>
+                    <div><button class="mb-3">Data Download</button></div>
+                    <div><button class="mb-3">Directory</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="block md:block lg:hidden">
+            <div class="flex flex-wrap gap-10">
+                <div class="mb-5 md:mb-10 lg:mb-0">
+                    <div class="mb-5 flex items-center gap-3">
+                        <img src="./images/Style_shoot-01.png" alt="" class="w-10 hover:cursor-pointer">
+                        <p class="text-xl font-bold hover:cursor-pointer">CollectiveArtistry</p>
+                    </div>
+                    <div class="text-[14px] mb-5">
+                        RWA.xyz is the leading analytics company for tokenized real-world assets. View protocol statistics, industry
+                        aggregate
+                        metrics, and the issuers all in one place.
+                    </div>
+                    <div>
+                        <div class="bg-[#e4e4e7] rounded-lg flex items-center justify-center w-10 p-2">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.6212 7.24219C19.0487 7.49546 18.4415 7.66179 17.8197 7.73569C18.475 7.34376 18.9655 6.72695 19.1997 6.00019C18.5847 6.36619 17.9105 6.62269 17.2077 6.76144C16.7357 6.25637 16.11 5.92141 15.428 5.80863C14.7459 5.69584 14.0457 5.81156 13.4362 6.13778C12.8267 6.464 12.342 6.98245 12.0576 7.61253C11.7731 8.24262 11.7048 8.94902 11.8632 9.62194C10.6161 9.55943 9.39598 9.23533 8.2822 8.67069C7.16842 8.10604 6.18583 7.31347 5.39823 6.34444C5.11945 6.82328 4.97295 7.36761 4.97373 7.92169C4.97373 9.00919 5.52723 9.96994 6.36873 10.5324C5.87074 10.5168 5.38371 10.3823 4.94823 10.1402V10.1792C4.94838 10.9035 5.19901 11.6054 5.65762 12.166C6.11623 12.7266 6.7546 13.1113 7.46448 13.2549C7.0022 13.3802 6.51746 13.3987 6.04698 13.3089C6.24713 13.9324 6.63724 14.4776 7.16268 14.8683C7.68812 15.259 8.32258 15.4755 8.97723 15.4877C8.32659 15.9987 7.58162 16.3764 6.78489 16.5993C5.98817 16.8222 5.15533 16.8859 4.33398 16.7867C5.76776 17.7088 7.43681 18.1983 9.14148 18.1967C14.9112 18.1967 18.0665 13.4169 18.0665 9.27169C18.0665 9.13669 18.0627 9.00019 18.0567 8.86669C18.6709 8.42281 19.2009 7.87295 19.622 7.24294L19.6212 7.24219Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="mr-20">
+                    <p class="mb-5 text-lg">Resources</p>
+                    <div><button class="mb-3">Dashboard</button></div>
+                    <div><button class="mb-3">Research Blog</button></div>
+                    <div><button class="mb-3">API</button></div>
+                </div>
+                <div class="mr-0 md:mr-20 lg:mr-0">
+                    <p class="mb-5 text-lg">Company</p>
+                    <div><button class="mb-3">Career</button></div>
+                    <div><button class="mb-3">Twitter</button></div>
+                    <div><button class="mb-3">Contact</button></div>
+                    <div><button class="mb-3">Terms of use</button></div>
+                    <div><button class="mb-3">Privacy Policy</button></div>
+                </div>
+                <div>
+                    <p class="mb-5 text-lg">Dashboard</p>
+                    <div><button class="mb-3">Login</button></div>
+                    <div><button class="mb-3">Register</button></div>
+                    <div><button class="mb-3">Data Download</button></div>
+                    <div><button class="mb-3">Directory</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- copyright -->
+    <div class="ml-4 md:ml-16 lg:ml-20 mr-4 md:mr-16 lg:mr-20">
+        <hr class="h-[2px] bg-[#3a3a41]">
+        <div class="mt-7 mb-20">
+            Copyright © Castle Labs, Inc.
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
